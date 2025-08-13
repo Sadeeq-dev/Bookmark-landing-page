@@ -459,6 +459,7 @@ footer {
     align-items: center;
     gap: 20px;
     padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .footer-input {
@@ -486,6 +487,7 @@ footer {
     color: hsl(0, 0%, 97%);
     font-weight: 500;
     width: 100%;
+    max-width: 400px;
 }
 
 .footer-input input::placeholder {
@@ -537,7 +539,9 @@ footer {
 }
 
 .footer-input.error {
-    margin-bottom: 30px; /* Add space to prevent the button from overlapping the error message */
+    margin-bottom: 30px; 
+    position: relative; 
+    z-index: 1;
 }
 
 
