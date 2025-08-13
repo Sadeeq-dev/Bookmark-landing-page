@@ -642,7 +642,10 @@ footer {
     display: block;
     position: relative;
 }
-    
+
+ .footer-input {
+        max-width: 100%;
+    }
 
 }
 
@@ -1051,7 +1054,7 @@ footer {
     .footer-input {
     position: relative;
     display: inline-block;
-    width: 100%;
+    max-width: 100%;
    }
 
     .footer-btn {
