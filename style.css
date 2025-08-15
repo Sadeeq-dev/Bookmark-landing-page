@@ -467,6 +467,7 @@ footer {
     width: 100%;
     max-width: 400px;
     overflow: visible;
+    box-sizing: border-box;
 }
 
 .footer-input input {
@@ -477,6 +478,7 @@ footer {
     height: 50px;
     padding:  0 45px 0 20px; 
     -webkit-text-fill-color: hsl(229, 31%, 21%);
+    box-sizing: border-box;
 }
 
 .footer-btn {
@@ -536,6 +538,10 @@ footer {
 
 .footer-input.error .error-message {
     display: block;
+    position: absolute;
+  bottom: -30px; /* puts error message below input without pushing it */
+  left: 0;
+  width: 100%;
 }
 
 .footer-input.error {
