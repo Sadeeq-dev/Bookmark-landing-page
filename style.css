@@ -84,6 +84,7 @@ nav li:first-child {
     display: none;
 }
 
+
 .simple-bookmark {
     display: flex;
     flex-direction: column;
